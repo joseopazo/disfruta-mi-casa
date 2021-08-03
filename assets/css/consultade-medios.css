@@ -1,0 +1,693 @@
+@media screen and (min-width: 320px) and (max-width: 480px){
+/* COMIENZO PARÁMETROS GENERALES */
+#tabla .precios caption {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 1.2em;
+    padding-bottom: 1%;
+}
+
+h2 {
+    font-size: 1em;
+    padding-bottom: 1%;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    line-height: 1.3em;
+    text-align: left;
+    text-indent: 10px;
+    font-size: 0.8em;
+}
+/* CIERRE DE PARÁMETROS GENERALES */
+
+.encabezado img {
+    max-width: 200px;
+}
+
+/* COMIENZO DE HEADER ENCABEZADO Y REDES */ 
+.encabezado .redes {
+    float: right;
+    display: inline;
+    margin-top: 4% !important;
+    width: 10% !important;
+    margin-right: 1.5% !important;
+}
+
+.encabezado .redes .fa-envelope-open {
+    font-size: 15px !important;
+    color: #fff;
+}
+
+.encabezado .redes .fa-airbnb {
+    font-size: 15px !important;
+    color: #fff;  
+}
+
+.encabezado .redes .fa-facebook-f {
+    font-size: 15px !important;
+    color: #fff;
+}
+
+.encabezado .redes .fa-whatsapp {
+    font-size: 15px !important;
+    color: #fff;
+}
+/* CIERRE DE HEADER ENCABEZADO Y REDES */
+
+/*COMIENZO DE MENU E INFORMACION */
+.menu a { 
+    font-size: 8px !important;
+}
+
+.menu .informacion {
+	display: none;
+}
+/* CIERRE DE MENÚ E INFORMACIÓN */
+
+/*BANNER PAGINA ASIDE*/
+.entrada_casa {
+    display: none;
+}
+
+/* COMIENZO SECCIÓN GALERÍA */
+#galeria {
+    margin-top: 4%;
+    padding: 2%;
+    text-align: center;    
+}
+
+#galeria .imagenes {
+    width: 97%;
+    max-width: 1280px;
+}
+/* CIERRE SECCIÓN GALERÍA */
+
+/* COMIENZO DE SECCIÓN TABLA DE PRECIOS */
+#tabla .precios caption {
+    font-size: 1em;
+}
+
+.precios thead { 
+    background-color: #038CED; 
+    color:#fff;
+    font-size: 1em;
+}
+
+#tabla .precios td, th {
+  font-size: 0.8em;
+}
+/* CIERRE DE SECCIÓN TABLA DE PRECIOS */
+
+/*COMIENZO DE SECCIÓN PREGUNTAS FRECUENTES*/
+.acordeon {
+    font-size: 0.8em;
+}
+
+.panel p {
+    text-align: justify-all;
+    line-height: 1.3em;
+    font-size: 0.8em;
+}
+
+.arriba img {
+   	display: none;
+}	
+/* CIERRE DE SECCIÓN PREGUNTAS FRECUENTES */
+
+/* COMIENZO DE FORMULARIO Y UBICACIÓN */
+#correo_ubicacion {
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.formulario_contacto {
+    width: 100%;
+    margin: auto;
+}
+
+label {
+    font-size: 0.8em;
+    margin-top: 1%;
+}
+
+input {
+    width: 100%;
+    padding: 0.8%;
+    margin: 2% auto;
+}
+
+textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 1.5% auto;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+ #boton {
+    font-size: 1em;
+ }
+
+ /* MAPA */
+.mapa {
+    width: 100%;
+    height: 550px;
+    margin: 3% auto;
+}
+/* CIERRE SECCIÓN FORMULARIO Y UBICACIÓN */
+
+/*RESPUESTA DEL CORREO*/
+#correo_ubicacion .formulario_contacto .mensaje-enviado {
+    margin-top: 2%;
+}
+
+/*FOOTER*/
+small {
+    font-weight: bold;
+    font-size: 0.7em;
+}
+
+/*SECCIÓN BOTÓN HACIA ARRIBA*/
+	.arriba {
+    display: none;   
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 575px) {
+/* COMIENZO DE PARÁMETROS GENERALES */
+	#tabla .precios caption {
+    font-size: 1.3em;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+
+	h1 {
+    font-size: 1.3em;
+    padding-bottom: 1%;
+}
+
+	h2 {
+    font-size: 1.1em;
+    padding-bottom: 1%;
+}
+
+ p {
+    font-family: 'roboto', sans-serif;
+    line-height: 1.3em;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 1em;
+}
+/* CIERRE DE PARÁMETROS GENERALES */
+
+/* COMIENZO DE ENCABEZADO Y REDES */
+.encabezado {
+    width: 100%;
+    margin: auto;
+}
+
+.encabezado img {
+    max-width: 250px;
+}
+
+.encabezado .redes {
+    float: right;
+    display: inline;
+    margin-top: 4% !important;
+    width: 10% !important;
+    margin-right: 1.5% !important;
+}
+
+.encabezado .redes .fa-envelope-open {
+    font-size: 20px;
+    color: #fff;
+}
+
+.encabezado .redes .fa-airbnb {
+    font-size: 20px;
+    color: #fff;  
+}
+
+.encabezado .redes .fa-facebook-f {
+    font-size: 20px;
+    color: #fff;
+}
+
+.encabezado .redes .fa-whatsapp {
+    font-size: 20px;
+    color: #fff;
+}
+/* CIERRE DE ENCABEZADO Y REDES */
+
+/* COMIENZO DE MENU E INFORMACIÓN*/
+.menu li {
+	display: block;
+    padding: 1%;
+}
+
+.menu a { 
+    padding: 1%;
+    font-size: 12px;
+}
+
+.menu a:hover {
+	background-color: none !important;
+	cursor: default;
+}
+
+.menu .informacion {
+	display: none;
+}
+/* CIERRE DE MENÚ E INFORMACIÓN */
+
+/*BANNER PAGINA ASIDE*/
+.entrada_casa {
+    display: none;
+}
+
+/* COMIENZO DE SECCIÓN GALERIA */
+#galeria {
+    margin-top: 4%;
+    padding: 2%;
+    text-align: center;    
+}
+
+#galeria .imagenes {
+    width: 97%;
+    max-width: 1280px;
+}
+/* CIERRE DE SECCIÓN GALERÍA */
+
+/* COMIENZO DE SECCIÓN TABLA DE PRECIOS*/
+#tabla {
+    margin-top: 0;
+    padding: 2%;
+    background-color: #f6f6f6;
+}
+
+#tabla .precios caption {
+    font-size: 1.1em;
+}
+
+.precios thead { 
+    background-color: #038CED; 
+    color:#fff;
+    font-size: 1.1em;
+}
+
+#tabla .precios td, th {
+    font-size: 1em;
+}
+/* CIERRE DE SECCIÓN TABLA DE PRECIOS */
+
+/* COMIENZO DE SECCIÓN PREGUNTAS FRECUENTES */
+#preguntas_frecuentes .caja_acordeon .acordeon{
+    font-size: 1em;
+ }
+ 
+.panel p {
+    text-align: justify-all;
+    line-height: 1.3em;
+    font-size: 1em;
+}
+/* CIERRE DE SECCIÓN DE PREGUNTAS FRECUENTES */
+
+/* COMIENZO DE FORMULARIO Y UBICACIÓN */
+#correo_ubicacion {
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.formulario_contacto {
+    width: 100%;
+    margin: auto;
+}
+
+label {
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+input {
+    width: 100%;
+    padding: 1.5%;
+    margin: 2% auto;     
+}
+
+textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 1.5% auto;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+#boton {
+     font-size: 1.1em;
+ }
+
+/*MAPA*/
+.mapa {
+    width: 100%;
+    height: 550px;
+    margin: 3% auto;
+}
+/* CIERRE DE SECCIÓN FORMULARIO Y UBICACIÓN */
+
+/*RESPUESTA DEL CORREO*/
+#correo_ubicacion .formulario_contacto .mensaje-enviado {
+    margin-top: 2%;
+}
+
+/*FOOTER*/
+small {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+/*BOTÓN HACIA ARRIBA*/
+.arriba {
+    display: none;   
+}
+
+.arriba img {
+   	display: none;
+}
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+/* COMIENZO DE PARÁMETROS GENERALES*/
+#tabla .precios caption {
+    font-size: 1.5em;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+
+h1 {
+    font-size: 1.7em;
+    padding-bottom: 1%;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 1%;
+}
+/* CIERRE DE PARÁMETROS GENERALES */
+
+/* COMIENZO DE ENCABEZADO Y REDES */
+.encabezado {
+    width: 100%;
+    margin: auto;
+}
+
+.encabezado img {
+    max-width: 300px;
+}
+
+.encabezado .redes {
+    float: right;
+    display: inline;
+    margin-top: 4% !important;
+    width: 10% !important;
+    margin-right: 1.5% !important;
+}
+
+/* CIERRE DE ENCABEZADO Y REDES */
+
+/* COMIENZO MENU E INFORMACION*/
+.menu li {
+	display: block;
+    padding: 1%;
+}
+
+.menu a { 
+    padding: 1%;
+    font-size: 13px;
+}
+
+.menu a:hover {
+	background-color: none !important;
+	cursor: default;
+}
+
+.menu .informacion {
+	display: none;
+}
+/* CIERRE DE MENÚ E INFORMACIÓN */
+
+/* COMIENZO DE GALERIA*/
+#galeria {
+    margin-top: 4%;
+    padding: 2%;
+    text-align: center;    
+}
+
+#galeria .imagenes {
+	width: 47%;
+	max-width: 1280px;
+}
+/* CIERRE DE GALERÍA */
+
+/* COMIENZO DE TABLA DE PRECIOS */
+#tabla {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #f6f6f6;
+}
+
+/*PREGUNTAS FRECUENTES*/
+	#preguntas_frecuentes .caja_acordeon .acordeon{
+    font-size: 1.1em;
+ }
+
+/* COMIENZO DE FORMULARIO Y UBICACIÓN */
+#correo_ubicacion {
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.formulario_contacto {
+    width: 48%;
+    margin: auto;
+}
+
+label {
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+input {
+    width: 100%;
+    padding: 1.5%;
+    margin: 2% auto;     
+}
+
+textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 1.5% auto;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+/* MAPA */
+.mapa {
+    width: 50%;
+    margin: 3% auto;
+}
+/* CIERRE DE FORMULARIO Y UBICACIÓN */
+
+/* RESPUESTA DEL CORREO */
+#correo_ubicacion .formulario_contacto .mensaje-enviado {
+    margin-top: 3%;
+}
+
+/* BOTÓN HACIA ARRIBA */
+	.arriba {
+    display: none;   
+}
+
+.arriba img {
+   	display: none;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+/* COMIENZO DE PARÁMETROS GENERALES*/
+#tabla .precios caption {
+    font-size: 1.7em;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+
+h1 {
+    font-size: 1.9em;
+    padding-bottom: 1%;
+}
+
+h2 {
+    font-size: 1.7em;
+    padding-bottom: 1%;
+}
+/* CIERRE DE PAR+AMETROS GENERALES */
+
+/* COMIENZO DE ENCABEZADO Y REDES */
+.encabezado {
+    width: 100%;
+    margin: auto;
+}
+
+.encabezado img {
+    max-width: 350px;
+}
+
+.encabezado .redes {
+    float: right;
+    display: inline;
+    margin-top: 4% !important;
+    width: 10% !important;
+    margin-right: 1.5% !important;
+}
+/* CIERRE DE ENCABEZADO Y REDES */
+
+/* COMIENZO DE MENU E INFORMACION*/
+.menu li {
+	display: block;
+    padding: 1%;
+}
+
+.menu a { 
+    padding: 1%;
+    font-size: 14px;
+}
+
+.menu a:hover {
+	background-color: none !important;
+	cursor: default;
+}
+
+.menu .informacion {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: right;
+    padding: 1%;
+}
+/* CIERRE DE MENÚ E INFORMACIÓN */
+
+/* COMIENZO DE GALERÍA */
+#galeria {
+    margin-top: 4%;
+    padding: 2%;
+    text-align: center;    
+}
+
+#galeria .imagenes {
+	width: 30.3%;
+	max-width: 1280px;
+}
+/* CIERRE DE GALERÍA */
+
+/*SECCIÓN PREGUNTAS FRECUENTES */
+#preguntas_frecuentes .caja_acordeon .acordeon{
+    font-size: 1.1em;
+ }
+
+/* COMIENZO DE FORMULARIO Y UBICACIÓN */
+#correo_ubicacion {
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.formulario_contacto {
+    width: 48%;
+    margin: auto;
+}
+
+label {
+    font-size: 1.1em;
+    margin-top: 1%;
+}
+
+input {
+    width: 100%;
+    padding: 1.5%;
+    margin: 2% auto;     
+}
+
+textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 1.5% auto;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+}
+
+/*MAPA*/
+.mapa {
+    width: 50%;
+    margin: 3% auto;
+}
+/* CIERRE DE FORMULARIO Y UBICACIÓN */
+
+/* RESPUESTA DEL CORREO */
+#correo_ubicacion .formulario_contacto .mensaje-enviado {
+    margin-top: 3%;
+}
+
+/* BOTÓN HACIA ARRIBA */
+	.arriba {
+    display: none;   
+}
+
+	.arriba img {
+   	display: none;
+}	
+}
+
+@media screen and (min-width: 1024px){
+/* COMIENZO DE ENCABEZADO Y REDES */
+.encabezado .redes {
+	text-align: right;
+	margin-right: 2%;
+	margin-top: 5%;
+	width: 20%;
+}
+
+.encabezado .redes .fa-envelope-open {
+    font-size: 24px;
+    padding-bottom: 1%;
+    color: #fff;
+}
+
+.encabezado .redes .fa-airbnb {
+    font-size: 24px;
+    padding-bottom: 1%;
+    color: #fff;
+}
+
+.encabezado .redes .fa-facebook-f {
+    font-size: 24px;
+    padding-bottom: 1%;
+    color: #fff;
+}
+
+.encabezado .redes .fa-whatsapp {
+    font-size: 24px;
+    padding-bottom: 1%;
+    color: #fff;
+}
+}
+

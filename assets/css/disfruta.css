@@ -1,0 +1,459 @@
+/* CSS UNIVERSAL */
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* IMPORT GOOGLE FONT OPEN SANS Y ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300&display=swap');
+
+/* COMIENZO DE CSS GENERAL */
+body {
+    font-size: 16px;
+    background-color: #ffffff;   
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 2%;
+    border-bottom: 1px #999 solid;
+    color:#036FBC;
+    font-family: 'open sans', sans-serif; 
+    font-weight: bold;  
+}
+
+h2 {
+    font-size:1.8em;
+    text-align: center;
+    padding-bottom: 2%;
+    border-bottom: 1px #999 solid;
+    color:#036FBC;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;       
+}
+
+h3 {
+    font-size: 1em;
+    text-align: center;
+    color:#000000;
+    font-weight: bold;
+    font-family: 'open sans', sans-serif;
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: justify;
+    color:#000000;
+    margin: auto;
+    padding: 2%;
+    text-indent: 15px;
+}
+
+.clear_fix:after {
+    clear: both;
+    content: '';
+    display: block;   
+}
+/* CIERRE DE CSS GENERAL */
+
+/* COMIENZO DE HEADER ENCABEZADO Y REDES */
+.encabezado {
+    width: 100%;
+    background-color: #038CED;
+    text-align: left;
+    margin: auto;
+    overflow: hidden;
+}
+
+.encabezado img {
+    max-width: 350px;
+    float: left;
+    margin-left: 1%;
+    padding: 0.5%;
+}
+
+.encabezado .redes {
+    float: right;
+    display: inline;
+    margin-top: 4% !important;
+    width: 10% !important;
+    margin-right: 1.5% !important;
+}
+
+.encabezado .redes .fa-envelope-open {
+    font-size: 25px;
+    padding: 1%;
+    color: #fff;
+}
+
+.encabezado .redes .fa-airbnb {
+    font-size: 25px;
+    padding: 1%;
+    color: #fff;  
+}
+
+.encabezado .redes .fa-facebook-f {
+    font-size: 25px;
+    padding: 1%;
+    color: #fff;
+}
+
+.encabezado .redes .fa-whatsapp {
+    font-size: 25px;
+    padding: 1%;
+    color: #fff;
+}
+/* CIERRE DE HEADER ENCABEZADO Y REDES */
+
+/*COMIENZO DE NAVEGACIÓN E INFORMACIÓN*/
+.menu {
+    margin:auto;
+    background-color: #036FBC;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.menu li {
+    color: #fff;
+    padding: 1%;
+    display: inline;
+    float: left;
+    margin-top: 0.5%;
+}
+
+.menu a { 
+	text-transform: uppercase; /*mayusculas*/
+	text-decoration: none !important;
+	color:#fff; /*estado inicial*/
+    font-family: 'roboto', sans-serif;
+    padding: 5%;
+    font-size: 15px;
+}
+
+.menu a:hover {
+    color: #000000; 
+    transition: 0.7s all;
+    background-color: #ffd60c;
+    text-decoration: none !important;   
+}
+
+.menu .informacion {
+   float: right;
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    padding: 1%;
+}
+
+.menu .informacion li{
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+.menu .informacion .fa-envelope-open{
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu .informacion .fa-phone-alt {
+    font-size: 18px;
+    color: #fff;
+}
+/* CIERRE DE MENÚ E INFORMACIÓN */
+
+/* COMIENZO DE BANNER PAGINA ASIDE*/
+.entrada_casa {
+    background-image: url(../imagenes/banner_casa/entrada-casa-2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center left;
+    height: 300px;
+}
+
+/* CONTENIDO DE LA PÁGINA */
+.contenedor {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* COMIENZO DE SECCIÓN BIENVENIDOS*/
+#bienvenidos {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #f6f6f6;    
+}
+/* CIERRE DE SECCIÓN BIENVENIDOS */
+
+/* COMIENZO DE SECCIÓN GALERÍA DE IMÁGENES */
+#galeria {
+    margin-top: 4%;
+    padding: 2%;    
+}
+
+#galeria .imagenes {
+    width: 30.3%;
+    float: left;
+    margin: 2.5% 1.5%;
+}
+
+#galeria .imagenes img {
+    width: 100%;
+    max-width: 1280px;
+}
+/* CIERRE SECCIÓN GALERÍA DE IMÁGENES */
+
+/* COMIENZO DE SECCIÓN TABLA DE PRECIOS */
+#tabla {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #f6f6f6;
+}
+
+#tabla .precios {
+    border-collapse: collapse;
+    margin:auto; 
+}
+
+#tabla .precios caption {
+    font-size: 1.8em;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    border-bottom: 1px #999 solid;
+    color:#036FBC;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+}
+
+#tabla .precios td, th {
+  border:2px #000 solid;
+  text-align: left;
+  padding: 1%;
+  font-weight: 400;
+  font-family: 'open sans', sans-serif;
+}
+
+tr th {
+    font-weight: 500;
+  font-family: 'open sans', sans-serif;
+}
+
+.precios thead { 
+    background-color: #038CED; 
+    color:#fff;
+}
+
+.precios td:hover {
+    background-color: #ffd60c;
+}
+
+/* CIERRE DE SECCIÓN TABLA DE PRECIOS */
+
+/* COMIENZO DE SECCIÓN PREGUNTAS FRECUENTES */
+#preguntas_frecuentes {
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.caja_acordeon {
+    margin-top: 3%;
+}
+
+.acordeon {
+    cursor: pointer;
+    padding: 2%;
+    width: 100%;
+    font-family: 'open sans', sans-serif;
+    text-align: center;
+    font-size: 1em!important;
+    font-weight: 500!important;
+    color:#000;
+    transition: 0.4s all; 
+    border: 1px solid #fff;
+    border: 1px solid #000;
+}
+
+.panel {
+    padding: 0 2%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f6f6f6;
+}
+
+.panel p {
+    text-align: justify-all;
+    font-family: 'roboto', sans-serif;
+    line-height: 1.5em;
+    color:#000;
+}
+
+.active, .acordeon:hover {
+    background-color: #ffd60c;  
+}
+
+.acordeon:after {
+    content: '\002B';
+    color: #000;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+/* CIERRE DE SECCIÓN PREGUNTAS FRECUENTES */
+
+/*COMIENZO DE SECCIÓN CORREO Y UBICACIÓN */
+#correo_ubicacion {
+    margin-top: 4%;
+    padding: 2%;
+    background-color: #f6f6f6;  
+}
+
+.formulario_contacto {
+    float: left;
+    margin-top:2%;
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+label {
+    font-weight: 400;
+    font-size: 1em;
+    display: block;
+    font-family: 'roboto', sans-serif;
+}
+
+input {
+    width: 90%;
+    padding: 1.5%;
+    margin: 2% auto; 
+    font-family: 'roboto', sans-serif;
+    border: none;
+    outline:none;
+}
+
+input:hover {
+     outline: 1px solid #C92300;
+}
+
+textarea {
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+    margin: 1.5% auto;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    transition: 1s all;
+    border: none;
+    outline: none;
+}
+
+textarea:hover {
+    outline: 1px solid #C92300;
+}
+
+#boton {
+    width: 30%;
+    font-size: 1.2em;
+    text-align: left;
+    transition: all 0.3s;
+    margin: 0 auto;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    border: none !important;
+    outline: none;
+    background-color: rgba(255, 214, 12, 0.6);
+}
+
+#boton:hover {
+    cursor: pointer;
+    background-color: #ffd60c;
+}
+
+/* MAPA */ 
+.mapa {
+    width: 46%;
+    height: 550px;
+    float: right;
+    margin: 3% 0;
+}
+/* CIERRE DE SECCIÓN CORREO Y UBICACIÓN */
+
+/* COMIENZO RESPUESTA DEL CORREO*/
+#correo_ubicacion .formulario_contacto .mensaje-enviado {
+    padding: 2%;
+    border: none;
+    font-family: 'Myriad Pro', sans-serif;
+    margin-top: 3%;
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    background-color: rgba(0,0,0,0.8);
+    width: 90%;
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+}
+
+@keyframes zoom{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
+
+.cierrame {
+    position: absolute;
+    top:0;
+    right:10px;
+    cursor:pointer;
+    color: #fff;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 20px;
+}
+
+.oculto {
+    display: none;
+}
+
+/* CIERRE RESPUESTA DEL CORREO */
+
+/* COMIEZO PIE DE PÁGINA*/
+.pie {
+    background-color: #038CED;
+    text-align: center;
+    padding: 1%;
+}
+
+small {
+    font-weight: 300;
+    font-size: 1em;
+    font-family: 'roboto', sans-serif;
+    color: #fff;
+}
+/* CIERRE PIE DE PÁGINA */
+
+/*SECCIÓN BOTÓN HACIA ARRIBA*/
+.arriba {
+    position: fixed;
+    right: 0%;
+    bottom: 0%;   
+}
+
+.arriba img {
+    border: 2px solid #fff;
+    border-radius: 20%;
+}
+
+/* RECAPTCHA V3 OCULTARLO EN LOS NAVEGADORES */
+.grecaptcha-badge {
+    visibility: hidden;
+}
