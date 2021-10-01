@@ -64,48 +64,60 @@ p {
 .encabezado {
     width: 100%;
     background-color: #038CED;
-    text-align: left;
     margin: auto;
-    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 10px;
 }
 
 .encabezado img {
-    max-width: 350px;
+    max-width: 90px;
+    width: 100%;
     float: left;
-    margin-left: 1%;
-    padding: 0.5%;
+}
+
+.encabezado .titulo {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #000000; 
+    position: absolute;
+    top: 45px;
+    left: 115px;
+}
+
+.encabezado .frase {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px #000000;
+    font-style: italic;
+    position: absolute;
+    top: 80px;
+    left: 115px;
 }
 
 .encabezado .redes {
-    float: right;
-    display: inline;
-    margin-top: 4% !important;
-    width: 10% !important;
-    margin-right: 1.5% !important;
+    margin-right: 0 !important;
 }
 
 .encabezado .redes .fa-envelope-open {
-    font-size: 25px;
-    padding: 1%;
-    color: #fff;
 }
 
 .encabezado .redes .fa-airbnb {
-    font-size: 25px;
-    padding: 1%;
-    color: #fff;  
+   
 }
 
 .encabezado .redes .fa-facebook-f {
-    font-size: 25px;
-    padding: 1%;
-    color: #fff;
+   
 }
 
 .encabezado .redes .fa-whatsapp {
-    font-size: 25px;
-    padding: 1%;
-    color: #fff;
+    
 }
 /* CIERRE DE HEADER ENCABEZADO Y REDES */
 
