@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 379px){
+@media screen and (min-width: 320px) and (max-width: 480px){
 /* COMIENZO PARÁMETROS GENERALES */
 #tabla .precios caption {
     font-size: 1.2em;
@@ -50,7 +50,7 @@ p {
 /* COMIENZO DE HEADER ENCABEZADO Y REDES */ 
 .encabezado .redes {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
 }
 
 .encabezado .redes .fa-envelope-open {
@@ -75,8 +75,21 @@ p {
 /* CIERRE DE HEADER ENCABEZADO Y REDES */
 
 /*COMIENZO DE MENU E INFORMACION */
+
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    color: #fff;
+    display: inline-block;
+}
+
 .menu a { 
     font-size: 8px !important;
+    color: #ffffff;
 }
 
 .menu .informacion {
@@ -195,7 +208,7 @@ small {
 }
 }
 
-@media screen and (min-width: 480px) and (max-width: 575px) {
+@media screen and (min-width: 480px) and (max-width: 575px){
 /* COMIENZO DE PARÁMETROS GENERALES */
 	#tabla .precios caption {
     font-size: 1.3em;
@@ -251,20 +264,21 @@ small {
     margin-top: 20px;
     margin-right: 0 !important;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
-    width: 10%;
+    display: flex;
+    background-color: red;
+    display: none;
 }
 
 .encabezado .redes .fa-envelope-open {
     font-size: 20px;
-    color: #fff;
+    color: red;
 }
 
 .encabezado .redes .fa-airbnb {
     font-size: 20px;
-    color: #fff;  
+    color: red;  
 }
 
 .encabezado .redes .fa-facebook-f {
@@ -279,19 +293,26 @@ small {
 /* CIERRE DE ENCABEZADO Y REDES */
 
 /* COMIENZO DE MENU E INFORMACIÓN*/
+.menu {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
 .menu li {
-	display: block;
-    padding: 1%;
+    color: #fff;
+    display: inline-block;
 }
 
 .menu a { 
-    padding: 1%;
-    font-size: 12px;
-}
-
-.menu a:hover {
-	background-color: none !important;
-	cursor: default;
+    font-size: 10px !important;
 }
 
 .menu .informacion {
@@ -404,6 +425,7 @@ textarea {
 small {
     font-weight: bold;
     font-size: 0.8em;
+    width: 50%;
 }
 
 /*BOTÓN HACIA ARRIBA*/
@@ -493,19 +515,25 @@ h2 {
 /* CIERRE DE ENCABEZADO Y REDES */
 
 /* COMIENZO MENU E INFORMACION*/
+.menu {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+
 .menu li {
-	display: block;
-    padding: 1%;
+    color: #fff;
+    display: inline-block;
 }
 
 .menu a { 
-    padding: 1%;
-    font-size: 13px;
-}
-
-.menu a:hover {
-	background-color: none !important;
-	cursor: default;
+    font-size: 12px !important;
 }
 
 .menu .informacion {
@@ -670,11 +698,10 @@ h2 {
 /* COMIENZO DE MENU E INFORMACION*/
 .menu li {
 	display: block;
-    padding: 1%;
+    
 }
 
 .menu a { 
-    padding: 1%;
     font-size: 14px;
 }
 

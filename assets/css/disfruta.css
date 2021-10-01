@@ -85,7 +85,7 @@ p {
     color: #ffffff;
     text-shadow: 1px 1px 5px #000000; 
     position: absolute;
-    top: 45px;
+    top: 50px;
     left: 115px;
 }
 
@@ -97,7 +97,7 @@ p {
     text-shadow: 1px 1px 5px #000000;
     font-style: italic;
     position: absolute;
-    top: 80px;
+    top: 83px;
     left: 115px;
 }
 
@@ -106,36 +106,43 @@ p {
 }
 
 .encabezado .redes .fa-envelope-open {
+    color: #ffffff;
 }
 
 .encabezado .redes .fa-airbnb {
-   
+     color: #ffffff;
 }
 
 .encabezado .redes .fa-facebook-f {
-   
+    color: #ffffff;
 }
 
 .encabezado .redes .fa-whatsapp {
-    
+     color: #ffffff;
 }
 /* CIERRE DE HEADER ENCABEZADO Y REDES */
 
 /*COMIENZO DE NAVEGACIÓN E INFORMACIÓN*/
 .menu {
+    width:100%;
     margin:auto;
     background-color: #036FBC;
     overflow: hidden;
     position: sticky;
+    display: flex;
+    justify-content: space-between;
     top: 0;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
 }
 
 .menu li {
     color: #fff;
-    padding: 1%;
-    display: inline;
-    float: left;
-    margin-top: 0.5%;
+    padding: 5px;
+    display: inline-block;
 }
 
 .menu a { 
@@ -143,7 +150,7 @@ p {
 	text-decoration: none !important;
 	color:#fff; /*estado inicial*/
     font-family: 'roboto', sans-serif;
-    padding: 5%;
+    padding: 5px;
     font-size: 15px;
 }
 
@@ -155,11 +162,9 @@ p {
 }
 
 .menu .informacion {
-   float: right;
     display: flex;
-    width: 40%;
     justify-content: flex-end;
-    padding: 1%;
+    padding: 10px;
 }
 
 .menu .informacion li{
