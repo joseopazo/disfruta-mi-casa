@@ -458,7 +458,7 @@ small {
 }
 /* CIERRE PIE DE PÁGINA */
 
-/*SECCIÓN BOTÓN HACIA ARRIBA*/
+/*SECCIÓN BOTÓN HACIA ARRIBA
 .arriba {
     position: fixed;
     right: 0%;
@@ -468,6 +468,22 @@ small {
 .arriba img {
     border: 2px solid #fff;
     border-radius: 20%;
+}
+*/
+
+/* LINK RED SOCIAL WHATSAPP */
+.redsocial {
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	right: 10px;
+	padding: 0.5%;
+}
+
+.redsocial .fa-whatsapp {
+	color: #00BB2D;
+	font-size: 65px;
+	text-shadow: 1px 2px 5px #000000;
 }
 
 /* RECAPTCHA V3 OCULTARLO EN LOS NAVEGADORES */

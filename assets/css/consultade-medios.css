@@ -202,9 +202,13 @@ small {
     font-size: 0.7em;
 }
 
-/*SECCIÓN BOTÓN HACIA ARRIBA*/
+/*SECCIÓN BOTÓN HACIA ARRIBA
 	.arriba {
     display: none;   
+}*/
+
+.redsocial .fa-whatsapp {
+	font-size: 45px;
 }
 }
 
@@ -428,13 +432,17 @@ small {
     width: 50%;
 }
 
-/*BOTÓN HACIA ARRIBA*/
+/*BOTÓN HACIA ARRIBA
 .arriba {
     display: none;   
 }
 
 .arriba img {
    	display: none;
+}*/
+
+.redsocial .fa-whatsapp {
+	font-size: 50px;
 }
 }
 
@@ -610,13 +618,17 @@ textarea {
     margin-top: 3%;
 }
 
-/* BOTÓN HACIA ARRIBA */
+/* BOTÓN HACIA ARRIBA
 	.arriba {
     display: none;   
 }
 
 .arriba img {
    	display: none;
+}*/
+
+.redsocial .fa-whatsapp {
+	font-size: 55px;
 }
 }
 
@@ -782,13 +794,17 @@ textarea {
     margin-top: 3%;
 }
 
-/* BOTÓN HACIA ARRIBA */
+/* BOTÓN HACIA ARRIBA 
 	.arriba {
     display: none;   
 }
 	.arriba img {
    	display: none;
-}	
+}*/
+
+.redsocial .fa-whatsapp {
+	font-size: 60px;
+}
 }
 
 @media screen and (min-width: 1024px){
