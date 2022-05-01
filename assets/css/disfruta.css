@@ -356,6 +356,7 @@ input {
     font-family: 'roboto', sans-serif;
     border: none;
     outline:none;
+    background-color: #E4E3E3;
 }
 
 input:hover {
@@ -373,6 +374,7 @@ textarea {
     transition: 1s all;
     border: none;
     outline: none;
+    background-color: #E4E3E3;
 }
 
 textarea:hover {
@@ -483,7 +485,7 @@ small {
 .redsocial .fa-whatsapp {
 	color: #00BB2D;
 	font-size: 65px;
-	text-shadow: 1px 2px 5px #000000;
+	text-shadow: 0px 0px 5px #000000;
 }
 
 /* RECAPTCHA V3 OCULTARLO EN LOS NAVEGADORES */
