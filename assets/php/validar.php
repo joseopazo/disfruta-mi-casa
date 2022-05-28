@@ -1,5 +1,5 @@
 <?php
-//validar Captcha, con funci¨®n isset para determinar si la variable est¨¢ definida y no es nula.
+//validar Captcha, con función isset para determinar si la variable está definida y no es nula.
 
 if (isset($_POST['action']) && ($_POST['action'] == 'process')) {
 
@@ -8,7 +8,18 @@ $recaptcha_secret = '6Lc8TM8UAAAAACom4QtTT1GMmyG-jBgEWQ-8eRBh';
 $recaptcha_response = $_POST['recaptcha_response']; 
 $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response); 
 $recaptcha = json_decode($recaptcha); 
+if($recaptcha->score >= 0.7){
+
+  // código para procesar los campos y enviar el form
+
+} else {
+
+  // código para lanzar aviso de error en el envío
+
 }
+
+}
+
 ?>
 
 

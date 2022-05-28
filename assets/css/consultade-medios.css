@@ -581,7 +581,7 @@ h2 {
 }
 
 .formulario_contacto {
-    width: 48%;
+    width: 100%;
     margin: auto;
 }
 
@@ -608,7 +608,7 @@ textarea {
 
 /* MAPA */
 .mapa {
-    width: 50%;
+    width: 100%;
     margin: 3% auto;
 }
 /* CIERRE DE FORMULARIO Y UBICACIÓN */
